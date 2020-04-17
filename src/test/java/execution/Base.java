@@ -11,13 +11,12 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-
+import org.testng.annotations.Test;
 
 
 public class Base {
 WebDriver driver;
-	@BeforeClass
+	@Test
 	public void Startup() {
 		
 		
@@ -33,7 +32,7 @@ WebDriver driver;
 	//Sukrat reports  under utilities
 	//Sayeed data.properties
 	
-	
+	//Emal
 	
 
 	// hello my friend Emal
