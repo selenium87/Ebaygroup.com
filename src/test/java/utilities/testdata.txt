@@ -1,0 +1,47 @@
+test = tset1
+
+**************test data repositories**********
+
+registration page--------
+regURL = https://reg.ebay.com/reg/PartialReg?
+regURL1 = https://reg.ebay.com/reg/
+
+
+_________________________
+
+login page---------------
+logURL = https://signin.ebay.com/
+
+
+_________________________
+
+search page--------------
+searchURL = https://www.ebay.com/n/all-categories
+
+
+num_of_item = 3
+item1 = jacket
+item2 = ###
+item3 = kdshfckghh
+
+num_of_all = 8
+cat1 = Art
+cat2 = Business & Industrial
+cat3 = Baby
+cat4 = DVDs & Movies
+cat5 = Home & Garden
+cat6 = Crafts
+cat7 = Consumer Electronics
+cat8 = Sports Mem, Cards & Fan Shop
+
+num_of_shop = 6
+shop1 = Collectibles & art
+shop2 = Fashion
+shop3 = Sporting goods
+shop4 = Home & garden
+shop5 = Toys & hobbies
+shop6 = Entertainment memorabilia
+
+_________________________
+
+
