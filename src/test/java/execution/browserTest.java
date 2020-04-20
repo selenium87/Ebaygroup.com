@@ -10,6 +10,7 @@ public class browserTest extends Base{
 	public void open() throws IOException {
 		prop.load(dpFile.data());
 		driver.get(prop.getProperty("searchURL"));
+		//You can use this to test the .web link
 	}
 
 }
