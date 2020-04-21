@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
 public class Base{
 	WebDriver driver;
 
-	@BeforeMethod
+	@BeforeClass
 	public void Startup() throws IOException {
 
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
@@ -36,7 +36,7 @@ public class Base{
 	}
 
 	public void screens() throws IOException {
-
+		
 		File take = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(take, new File(System.getProperty("user.dir") + "\\screenshots\\" + phototime() + ".png"));
 
