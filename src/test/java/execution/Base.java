@@ -35,14 +35,10 @@ public class Base{
 	}
 
 	public void screens() throws IOException {
-
+		String stamp = new SimpleDateFormat(" E, MMM-dd-yyyy HH-mm-ss.SSS").format(new Date());
 		File take = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(take, new File(System.getProperty("user.dir") + "\\screenshots\\" + phototime() + ".png"));
 
 	}
 
-	public String phototime() {
-
-		return new SimpleDateFormat("yy-MM-dd-HH-mm-ss").format(new Date());
-	}
 }
