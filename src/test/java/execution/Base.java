@@ -27,14 +27,15 @@ WebDriver driver;
 // add data properties setup for integration into other modules
 Properties prop = new Properties();
 dataProp dpFile = new dataProp();	
-	
+
 
 
 	@BeforeClass
 	public void Startup() throws IOException {
-
+		prop.load(dpFile.data());
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\Driver\\chromedriver.exe");
 		driver= new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
@@ -51,7 +52,8 @@ dataProp dpFile = new dataProp();
 	
 	@AfterClass
 	public void teardown() throws InterruptedException {
-		driver.close();
+		driver.manage().deleteAllCookies();
+	//	driver.close();
 		
 	}	
 	

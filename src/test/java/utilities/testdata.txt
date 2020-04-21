@@ -3,10 +3,18 @@ test = tset1
 **************test data repositories**********
 
 registration page--------
-regURL = https://reg.ebay.com/reg/PartialReg?
-regURL1 = https://reg.ebay.com/reg/
 
+URL = https://www.ebay.com
+first= alpha
+last = man
+email = alpha1944@gmail.com
+password = L@(@KJD454yeS
 
+item= iphone 11
+phone= 0000000000
+city=alexandria
+state=virginia
+zip=22306
 _________________________
 
 login page---------------
