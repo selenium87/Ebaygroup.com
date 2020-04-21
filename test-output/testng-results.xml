@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-16T22:17:14 EDT" name="Default suite" finished-at="2020-04-16T22:17:21 EDT" duration-ms="6332">
+  <suite started-at="2020-04-20T20:56:47 EDT" name="Default suite" finished-at="2020-04-20T20:57:05 EDT" duration-ms="18213">
     <groups>
     </groups>
-    <test started-at="2020-04-16T22:17:14 EDT" name="Default test" finished-at="2020-04-16T22:17:21 EDT" duration-ms="6332">
-      <class name="execution.Base">
-        <test-method signature="Startup()[pri:0, instance:execution.Base@60704c]" started-at="2020-04-16T22:17:14 EDT" name="Startup" finished-at="2020-04-16T22:17:21 EDT" duration-ms="6275" status="PASS">
+    <test started-at="2020-04-20T20:56:47 EDT" name="Default test" finished-at="2020-04-20T20:57:05 EDT" duration-ms="18213">
+      <class name="execution.LoginTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:execution.LoginTest@60dcc9fe]" started-at="2020-04-20T20:56:47 EDT" name="Startup" finished-at="2020-04-20T20:57:00 EDT" duration-ms="12934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startup -->
-      </class> <!-- execution.Base -->
+        <test-method signature="positiveLogin()[pri:0, instance:execution.LoginTest@60dcc9fe]" started-at="2020-04-20T20:57:00 EDT" name="positiveLogin" finished-at="2020-04-20T20:57:05 EDT" duration-ms="5198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+      </class> <!-- execution.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
