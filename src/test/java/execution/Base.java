@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
 public class Base{
 	WebDriver driver;
 
-	@BeforeMethod
+	@BeforeClass
 	public void Startup() throws IOException {
 
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
@@ -32,7 +32,6 @@ public class Base{
 		
 		
 		screens();
-		
 	}
 
 	public void screens() throws IOException {
