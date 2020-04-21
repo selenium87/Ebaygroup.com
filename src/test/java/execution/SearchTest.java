@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 import POM.Search;
 
 public class SearchTest extends Base{
-
+	
 	
 	
 	@Test
 	public void test1() throws IOException {
-		prop.load(dpFile.data());
-		driver.navigate().to(prop.getProperty("searchURL"));
+		//prop.load(dpFile.data());
+		driver.navigate().to(prop.getProperty("URL"));
 	}
 	
 	@Test (dataProvider = "dataset")
